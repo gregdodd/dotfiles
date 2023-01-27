@@ -104,12 +104,6 @@ _G.packer_plugins = {
     path = "/Users/gregdodd/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  dracula = {
-    config = { "\27LJ\2\na\0\0\3\0\6\0\n6\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\0016\0\3\0009\0\4\0'\2\5\0B\0\2\1K\0\1\0\24colorscheme dracula\bcmd\bvim\nsetup\fdracula\frequire\0" },
-    loaded = true,
-    path = "/Users/gregdodd/.local/share/nvim/site/pack/packer/start/dracula",
-    url = "https://github.com/Mofiqul/dracula.nvim"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/gregdodd/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -150,6 +144,11 @@ _G.packer_plugins = {
     path = "/Users/gregdodd/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["onedark.vim"] = {
+    loaded = true,
+    path = "/Users/gregdodd/.local/share/nvim/site/pack/packer/start/onedark.vim",
+    url = "https://github.com/joshdick/onedark.vim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/gregdodd/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -175,6 +174,16 @@ _G.packer_plugins = {
     path = "/Users/gregdodd/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-airline"] = {
+    loaded = true,
+    path = "/Users/gregdodd/.local/share/nvim/site/pack/packer/start/vim-airline",
+    url = "https://github.com/vim-airline/vim-airline"
+  },
+  ["vim-airline-themes"] = {
+    loaded = true,
+    path = "/Users/gregdodd/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
+    url = "https://github.com/vim-airline/vim-airline-themes"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/Users/gregdodd/.local/share/nvim/site/pack/packer/start/vim-fugitive",
@@ -183,10 +192,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: dracula
-time([[Config for dracula]], true)
-try_loadstring("\27LJ\2\na\0\0\3\0\6\0\n6\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\0016\0\3\0009\0\4\0'\2\5\0B\0\2\1K\0\1\0\24colorscheme dracula\bcmd\bvim\nsetup\fdracula\frequire\0", "config", "dracula")
-time([[Config for dracula]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
